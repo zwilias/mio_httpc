@@ -17,6 +17,7 @@ edition = "2018"
 # Default does not work for https.
 default = []
 native = ["native-tls","crypto-hash"]
+native-vendored = ["native", "native-tls/vendored"]
 rtls = ["webpki-roots", "webpki", "ring","rustls"]
 
 
